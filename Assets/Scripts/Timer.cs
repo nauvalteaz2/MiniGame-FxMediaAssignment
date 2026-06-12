@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
 
     public void StartTimer()
     {
-        timer = 5f;
+        timer = 20f;
         InvokeRepeating(nameof(UpdateTimer), 0f, 1f);
     }
 
